@@ -19,5 +19,5 @@ def max_of_subarrays(nums: list, window_size: int) -> list:
         result.append(max_value)
 
     return result
-
+# call the function
 print(max_of_subarrays(arr, k))

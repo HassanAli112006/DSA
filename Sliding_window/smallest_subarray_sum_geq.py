@@ -29,4 +29,5 @@ def smallest_subarray_with_sum_at_least_k(nums: list, target: int) -> int:
 
     return min_len if min_len != float("inf") else 0
 
+# Call the function
 print(smallest_subarray_with_sum_at_least_k(arr, k))
