@@ -1,49 +1,72 @@
-# 🔁 Sliding Window Pattern in DSA
+# 📚 DSA Practice Repository
 
-This folder contains my solved problems based on the **Sliding Window** technique — a powerful method to optimize problems involving subarrays or sequences.
-
----
-
-## 📌 What is Sliding Window?
-
-The Sliding Window pattern is used to:
-- Reduce nested loops into a single loop
-- Improve time complexity from O(n²) to O(n)
-- Solve problems that involve **subarrays**, **averages**, **counts**, or **conditions within a window**
+Welcome to my **Data Structures & Algorithms (DSA)** practice repository! This is where I consistently upload my solutions to a variety of DSA problems — all structured, tested, and ready for reference.
 
 ---
 
-## ✅ Problem List (So Far)
+## ✅ Goals of This Repository
 
-| No. | File Name                   | Description                                   | Type       |
-|-----|-----------------------------|-----------------------------------------------|------------|
-| 1   | `max_average_subarray_k.py` | Find max average of subarrays of size K       | Fixed Size |
-| 2   | `max_sum_subarray_k.py`     | Find max sum of subarrays of size K           | Fixed Size |
-
-> 🔄 I will be adding more problems daily, including variable-sized window problems and edge cases.
+- 🧠 Strengthen problem-solving and analytical thinking.
+- ⏱ Improve coding speed and accuracy.
+- 🔁 Build a strong foundation in core DSA topics.
+- 💼 Prepare for coding interviews and internship/job applications.
 
 ---
 
-## 🧠 Why This Folder?
+## 🗂️ Topics Covered
 
-This folder is part of my daily practice commitment to:
-- Strengthen DSA concepts
-- Maintain a consistent GitHub contribution graph
-- Prepare for internships and remote job roles
+This repository will include problems from areas like:
+
+- Arrays & Strings
+- Linked Lists
+- Stacks & Queues
+- Trees & Graphs
+- Recursion & Backtracking
+- Binary Search
+- Sliding Window
+- Two Pointers
+- Dynamic Programming
+- Hashing
+- Sorting & Searching
+- Greedy Algorithms
+- And more...
 
 ---
 
-## 📎 How to Run
+## 📁 Folder Structure
 
-- Each file is self-contained with input/output and comments.
-- Use any Python interpreter or an online compiler to test.
+Each topic has its own dedicated folder. Inside each folder:
+
+- ✅ Python files with clean, commented code.
+- 📘 README.md file for each folder
 
 ---
 
-## 🛠️ Upcoming in This Folder
+## 🧑‍💻 How to Run
 
-- Variable Window problems
-- Edge cases (evens, odds, constraints)
-- Count-based & sum-based variations
+- Clone this repo: `git clone https://github.com/your-username/dsa-practice.git`
+- Open any `.py` file in your preferred IDE or use a terminal to run with `python filename.py`
+- No external dependencies are required.
 
-Let’s master this pattern together 💪
+---
+
+## 📆 Commitment
+
+I’m solving at least **1–2 DSA problems daily**, maintaining a **GitHub streak**, and pushing consistent progress toward mastering problem-solving for technical interviews.
+
+---
+
+## 🌱 Why I’m Doing This
+
+This repo is a part of my journey to:
+
+- Become confident in tackling unseen coding problems.
+- Prepare for product-based company interviews.
+- Get internship-ready and land my first remote role.
+
+---
+
+## 🧠 Let’s Learn Together!
+
+Feel free to fork this repo, follow my journey, or reach out for discussions or collaborations. Let’s grow as problem-solvers 🚀
+
