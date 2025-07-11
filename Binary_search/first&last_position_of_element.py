@@ -19,22 +19,37 @@ target = 8
 # Output: [-1, -1]
 
 def searchRange(number: list[int], tr: int) -> list[int]:
-    indices = []
-    l = 0
-    r = len(number)
+    if len(number) == 0:
+        return [-1,-1]
+    def firstSearch():
+        l = 0
+        r = len(number) - 1
+        first = -1
+        while l <= r:
+            m = l + (r-l)//2
+            if tr == number[m]:
+                first = m
+                r = m - 1
+            elif tr < number[m]:
+                r = m - 1
+            else:
+                l = m + 1
+        return first
 
-    while l >= r:
-        m = l + ((r-l)//2)
+    def lastSearch():
+        l = 0
+        r = len(number) - 1
+        last = -1
+        while l <= r:
+            m = l + (r-l)//2
+            if number[m] == tr:
+                last = m
+                l = m + 1
+            elif number[m] < tr:
+                l = m + 1
+            else:
+                r = m - 1
+        return last
+    return [firstSearch(), lastSearch()]
 
-        if number[m] == tr:
-            return m
-        elif tr > number[m]:
-            l = m+1
-        else:
-            r = m-1
-    # if len(indices) == 0:
-    #     return [-1,-1]
-    # else:
-    #     return indices
-    return -1
 print(searchRange(nums, target))

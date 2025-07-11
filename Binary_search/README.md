@@ -1,0 +1,53 @@
+# 🔍 Binary Search Pattern in DSA
+
+This folder contains my solved problems based on the **Binary Search** technique — a powerful and efficient method to solve problems on sorted arrays or search spaces in O(log n) time.
+
+---
+
+## 📌 What is Binary Search?
+
+Binary Search is a divide-and-conquer algorithm that:
+- Works only on **sorted data**
+- Cuts the search space in half with each step
+- Helps solve a wide range of problems, from classic element search to more advanced range-based and modified searches
+
+We often apply **modifications** to binary search depending on the problem constraints (first/last occurrence, condition-based search, etc.).
+
+---
+
+## ✅ Problem List (So Far)
+
+| No. | File Name                              | Description                                                        | Type             |
+|-----|----------------------------------------|--------------------------------------------------------------------|------------------|
+| 1   | `binary_search_basic.py`              | Find index of a target in sorted array (LeetCode #704)             | Basic            |
+| 2   | `find_first_last_position.py`         | Find first and last position of target in sorted array (LC #34)    | Modified Binary  |
+
+> 🧠 I’ll keep adding more problems as I go deeper into rotated arrays, min/max search, and condition-based search.
+
+---
+
+## 🧠 Why This Folder?
+
+This folder is part of my ongoing commitment to:
+- Master fundamental and advanced patterns in Binary Search
+- Build strong algorithmic intuition
+- Prepare for top tech interviews and freelance backend roles
+
+---
+
+## 📎 How to Run
+
+- Each `.py` file contains inputs, expected outputs, and clean logic.
+- Run using any Python interpreter or your favorite online compiler.
+
+---
+
+## 🛠️ Upcoming in This Folder
+
+- Search in Rotated Sorted Array
+- Find Minimum in Rotated Array
+- Find Peak Element
+- First Bad Version (LeetCode #278)
+- Single Element in a Sorted Array
+
+Let’s conquer Binary Search — one bit at a time 💻🔥
