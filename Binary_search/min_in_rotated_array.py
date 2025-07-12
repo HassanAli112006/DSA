@@ -15,7 +15,6 @@ nums = [4, 5, 6, 7, 0, 1, 2]
 # Output: 11
 
 def minimum_in_sorted_array(number: list) -> int:
-    min_number = float("inf")
     l = 0
     r = len(number) - 1
 
