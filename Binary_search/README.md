@@ -17,10 +17,13 @@ We often apply **modifications** to binary search depending on the problem const
 
 ## ✅ Problem List (So Far)
 
-| No. | File Name                              | Description                                                        | Type             |
-|-----|----------------------------------------|--------------------------------------------------------------------|------------------|
-| 1   | `binary_search_basic.py`              | Find index of a target in sorted array (LeetCode #704)             | Basic            |
-| 2   | `find_first_last_position.py`         | Find first and last position of target in sorted array (LC #34)    | Modified Binary  |
+| No. | File Name                          | Description                                                        | Type             |
+|-----|------------------------------------|--------------------------------------------------------------------|------------------|
+| 1   | `index_of_target_element.py`       | Find index of a target in sorted array (LeetCode #704)             | Basic            |
+| 2   | `first_last_position_of_element.py`| Find first and last position of target in sorted array (LC #34)    | Modified Binary  |
+| 3   | `search_insert_position.py`        | Return the index where target should be inserted (LC #35)          | Basic            |
+| 4   | `min_in_rotated_array.py`          | Find minimum in rotated sorted array (LeetCode #153)               | Modified Binary  |
+| 5   | `search_in_rotated_array.py`       | Search in rotated sorted array (LeetCode #33)                      | Modified Binary  |
 
 > 🧠 I’ll keep adding more problems as I go deeper into rotated arrays, min/max search, and condition-based search.
 
