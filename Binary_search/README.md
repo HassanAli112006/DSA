@@ -24,6 +24,8 @@ We often apply **modifications** to binary search depending on the problem const
 | 3   | `search_insert_position.py`        | Return the index where target should be inserted (LC #35)          | Basic            |
 | 4   | `min_in_rotated_array.py`          | Find minimum in rotated sorted array (LeetCode #153)               | Modified Binary  |
 | 5   | `search_in_rotated_array.py`       | Search in rotated sorted array (LeetCode #33)                      | Modified Binary  |
+| 6   | `smallest_element_g_then_tr.py`    | Find smallest element greater than a target                        | Upper Bound / Custom |
+| 7   | `practice.py`                      | Personal sandbox for practicing Binary Search logic                | Practice/Extra   |
 
 > 🧠 I’ll keep adding more problems as I go deeper into rotated arrays, min/max search, and condition-based search.
 
