@@ -1,28 +1,29 @@
 """""""""""""""""""""""""""
-🔹 Problem: Find Ceiling of Target in Sorted Array
-🔁 Pattern: Binary Search (Basic Variant)
+🔹 Problem: Element Exists in Sorted Array
+🔁 Pattern: Binary Search (Classic)
 ⭐ Difficulty: Easy
-📘 Custom Problem (Confidence Builder)
-🎯 Goal: Given a sorted array, return the index of the smallest element ≥ target. If not found, return -1.
+📘 Custom Practice Problem
+🎯 Goal: Return True if target exists in sorted array, else False.
 """""""""""""""""""""""""""
 
-def find_ceiling(number: list[int], target: int) -> int:
+nums = [1, 3, 5, 6, 9, 13]
+target = 6
+# → Output: True
+# target = 8
+# → Output: False
+
+
+def exists(number: list, tr: int) -> int:
     l = 0
     r = len(number) - 1
-    ans = -1  # Default if not found
 
-    while l<=r:
-        m = (l+r)//2
-        if number[m] >= target:
-            ans = m
-            r = m-1
+    while l <= r:
+        m = l + (r-l)//2
+        if number[m] == tr:
+            return True
+        elif number[m] < tr:
+            l = m + 1
         else:
-            l = m+1
-
-    return ans
-
-
-# Test Example
-nums = [2, 3, 5, 9, 14, 20]
-target = 15
-print(find_ceiling(nums, target))  # Output: 5
+            r = m - 1
+    return False
+print(exists(nums, target))
