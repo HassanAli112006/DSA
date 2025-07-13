@@ -26,7 +26,8 @@ We often apply **modifications** to binary search depending on the problem const
 | 5   | `search_in_rotated_array.py`       | Search in rotated sorted array (LeetCode #33)                      | Modified Binary  |
 | 6   | `smallest_element_g_then_tr.py`    | Find smallest element greater than a target                        | Upper Bound / Custom |
 | 7   | `floor_of_target_in_array.py`      |Find index of largest element ≤ target in sorted array              | Practice/Extra   |
-| 8   | `practice.py`                      | Personal sandbox for practicing Binary Search logic                | Practice/Extra   |
+| 8   | `first_bad_version.py`               | Find the first bad version using version-check API (LC #278)  | Boundary Search  |
+| 9   | `practice.py`                      | Personal sandbox for practicing Binary Search logic                | Practice/Extra   |
 
 > 🧠 I’ll keep adding more problems as I go deeper into rotated arrays, min/max search, and condition-based search.
 
