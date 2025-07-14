@@ -14,7 +14,7 @@ nums = [4, 5, 6, 7, 0, 1, 2]
 # nums = [11, 13, 15, 17]
 # Output: 11
 
-def minimum_in_sorted_array(number: list) -> int:
+def minimum_in_rotated_array(number: list) -> int:
     l = 0
     r = len(number) - 1
 
@@ -26,4 +26,4 @@ def minimum_in_sorted_array(number: list) -> int:
         else:
             r = m
     return number[l]
-print(minimum_in_sorted_array(nums))
+print(minimum_in_rotated_array(nums))
