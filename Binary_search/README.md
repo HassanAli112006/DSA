@@ -18,19 +18,22 @@ We often apply **modifications** to binary search depending on the problem const
 ## ✅ Problem List (So Far)
 
 | No. | File Name                          | Description                                                        | Type                  |
-|-----|------------------------------------|--------------------------------------------------------------------|-----------------------|
-| 1   | `find_peak_element.py`            | Find a peak element in the array (LeetCode #162)                   | Modified Binary       |
-| 2   | `first_bad_version.py`            | Find the first bad version using version-check API (LC #278)       | Boundary Search       |
-| 3   | `first_last_position_of_element.py`| Find first and last position of target in sorted array (LC #34)    | Modified Binary       |
-| 4   | `floor_of_target_in_array.py`     | Find index of largest element ≤ target in sorted array             | Practice/Extra        |
-| 5   | `index_of_target_element.py`      | Find index of a target in sorted array (LeetCode #704)             | Basic                 |
-| 6   | `min_in_rotated_array.py`         | Find minimum in rotated sorted array (LeetCode #153)               | Modified Binary       |
-| 7   | `peak_index_in_mountain.py`       | Find peak index in a mountain array (LeetCode #852)                | Modified Binary       |
-| 8   | `search_in_rotated_array.py`      | Search in rotated sorted array (LeetCode #33)                      | Modified Binary       |
-| 9   | `search_insert_position.py`       | Return the index where target should be inserted (LC #35)          | Basic                 |
-| 10  | `smallest_element_g_then_tr.py`   | Find smallest element greater than a target                        | Upper Bound / Custom  |
-| 11  | `unique_element_in_sorted.py`     | Find the single non-duplicate element in sorted array (LC #540)    | Bitwise / Modified BS |
-| 12  | `practice.py`                     | Personal sandbox for practicing Binary Search logic                | Practice/Extra        |
+| No. | File Name                          | Description                                                           | Pattern Type           |
+|-----|------------------------------------|-----------------------------------------------------------------------|------------------------|
+| 1   | `min_in_rotated_array.py`         | Find minimum in rotated sorted array (LeetCode #153)                 | Modified Binary        |
+| 2   | `find_peak_element.py`            | Find a peak element in the array (LeetCode #162)                     | Modified Binary        |
+| 3   | `first_bad_version.py`            | Find the first bad version using version-check API (LeetCode #278)   | Boundary Search        |
+| 4   | `first_last_position_of_element.py`| Find first and last position of target in sorted array (LeetCode #34)| Modified Binary        |
+| 5   | `floor_of_target_in_array.py`     | Find index of largest element ≤ target in sorted array               | Practice/Extra         |
+| 6   | `index_of_target_element.py`      | Find index of a target in sorted array (LeetCode #704)               | Basic                  |
+| 7   | `koko_eating_bananas.py`          | Minimum speed Koko needs to eat all bananas (LeetCode #875)          | Binary Search on Answer|
+| 8   | `peak_index_in_mountain.py`       | Find peak index in a mountain array (LeetCode #852)                  | Modified Binary        |
+| 9   | `search_in_rotated_array.py`      | Search in rotated sorted array (LeetCode #33)                        | Modified Binary        |
+| 10  | `search_insert_position.py`       | Return the index where target should be inserted (LeetCode #35)      | Basic                  |
+| 11  | `smallest_element_g_then_tr.py`   | Find smallest element greater than a target                          | Upper Bound / Custom   |
+| 12  | `unique_element_in_sorted.py`     | Find the single non-duplicate element in sorted array (LeetCode #540)| Bitwise / Modified BS  |
+| 13  | `practice.py`                     | Personal sandbox for practicing Binary Search logic                  | Practice/Extra         |
+
 
 > 🧠 I’ll keep adding more problems as I go deeper into rotated arrays, min/max search, and condition-based search.
 
