@@ -11,8 +11,11 @@ target = 8
 # Output: [3, 4]
 
 def searchRange(number: list[int], tr: int) -> list[int]:
-    if len(number) == 0:
+    if len(number) == 0: #emtpy list as input
         return [-1,-1]
+    #create two seperate functions for finding first and last occurance
+
+    #first occurance
     def firstSearch():
         l = 0
         r = len(number) - 1
@@ -28,6 +31,8 @@ def searchRange(number: list[int], tr: int) -> list[int]:
                 l = m + 1
         return first
 
+
+    #last occurance
     def lastSearch():
         l = 0
         r = len(number) - 1
