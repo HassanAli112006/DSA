@@ -20,6 +20,9 @@ It helps eliminate nested loops and makes many problems solvable in **O(n)** tim
 | No. | File Name                     | Description                                     | Type       |
 |-----|-------------------------------|-------------------------------------------------|------------|
 | 1   | `squares_of_sorted_array.py` | Return sorted squares of a sorted input array   | Start–End  |
+| 2   | `remove_duplicate.py`        | Remove duplicates in-place from a sorted array  | Start–End  |
+| 3   | `move_zero.py`               | Move all zeros to the end while maintaining order | Start–End  |
+| 4   | `reverse_string.py`          | Reverse an array of characters in-place         | End–Start  |
 
 > 🔄 More two-pointer problems will be added consistently as I progress through DSA practice.
 
