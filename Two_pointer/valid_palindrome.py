@@ -14,7 +14,7 @@ s = "race a car"
 
 def isPalindrome(line: str) -> bool:
     l = 0
-    r = len(s)-1
+    r = len(line)-1
     while l<r:
         if not line[l].isalnum():
             l+=1

@@ -23,7 +23,7 @@ def longest_unique_substring(string: str) -> int:
         seen.add(string[r])
         max_len = max(max_len, r-l+1)
     return max_len
-print(longest_unique_substring(s)) 
+print(longest_unique_substring(s))
 
 
 

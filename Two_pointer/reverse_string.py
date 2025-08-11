@@ -13,7 +13,7 @@ s = ["h", "e", "l", "l", "o"]
 def reverse_string(array):
     l = 0
     r = len(array) - 1
-    while l <= r:
+    while l < r:
         array[l], array[r] = array[r], array[l]
 
         l += 1

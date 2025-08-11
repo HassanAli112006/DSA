@@ -93,7 +93,7 @@ def square_of_sorted_array(number: list[int]) -> list[int]:
             result.append(number[right]**2)
             right -= 1
     l = 0
-    r = len(number) - 1
+    r = len(result) - 1
     while l<r:
         result[l] , result[r] = result[r] , result[l]
 
