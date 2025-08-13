@@ -78,27 +78,57 @@ A sorted array nums (may contain negative numbers).
 Return an array of squares of each number sorted in non-decreasing order.
 """""""""""""""""""""""
 
-nums = [-4, -1, 0, 3, 10]
-# Output: [0, 1, 9, 16, 100]
+# nums = [-4, -1, 0, 3, 10]
+# # Output: [0, 1, 9, 16, 100]
 
-def square_of_sorted_array(number: list[int]) -> list[int]:
-    left = 0
-    right = len(number) - 1
-    result = []
-    while left <= right:
-        if abs(number[left]) > abs(number[right]):
-            result.append(number[left]**2)
-            left += 1
-        else:
-            result.append(number[right]**2)
-            right -= 1
+# def square_of_sorted_array(number: list[int]) -> list[int]:
+#     left = 0
+#     right = len(number) - 1
+#     result = []
+#     while left <= right:
+#         if abs(number[left]) > abs(number[right]):
+#             result.append(number[left]**2)
+#             left += 1
+#         else:
+#             result.append(number[right]**2)
+#             right -= 1
+#     l = 0
+#     r = len(result) - 1
+#     while l<r:
+#         result[l] , result[r] = result[r] , result[l]
+
+#         l += 1
+#         r -=1
+#     return result
+# print(square_of_sorted_array(nums))
+
+
+"""""""""""""""""""""
+You are given a sorted array of integers nums and an integer target.
+Find two numbers such that they add up to target and return their indices (0-based).
+
+You must use the two-pointer approach to solve it in O(n) time.
+If no such pair exists, return [-1, -1].
+"""""""""""""""""""""
+
+# Input: nums = [1, 2, 4, 7, 11, 15], target = 15
+# Output: [1, 4]
+# Explanation: nums[1] + nums[4] = 2 + 13 = 15
+nums = [1, 2, 4, 7, 11, 15]
+target = 15
+
+def two_sum_in_sorted(nums, target):
     l = 0
-    r = len(result) - 1
-    while l<r:
-        result[l] , result[r] = result[r] , result[l]
+    r = len(nums) - 1
 
-        l += 1
-        r -=1
-    return result
-print(square_of_sorted_array(nums))
+    while l < r:
+        s = nums[l] + nums[r]
+        if s == target:
+            return [l, r]
+        elif s < target:
+            l += 1
+        else:
+            r-=1
+    return [-1, -1]
 
+print(two_sum_in_sorted(nums, target))
